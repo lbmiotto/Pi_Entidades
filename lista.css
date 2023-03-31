@@ -1,0 +1,39 @@
+/* !!!!! NAVBAR !!!!! */
+/* logo da navbar */
+#logo_navbar{
+	width: 220px;
+	height: 110px;
+}
+
+/* configuração da nabar */
+.navbar {
+    position: relative;
+  }
+
+/* cor da navbar */
+nav#navbar_topo {
+	width: 100%;
+	height: 130px;
+	background-color: #002552;
+}
+
+/* itens da navbar */
+a#item_nav {
+	color: white;
+}
+
+#nav_botao {
+	color: black;
+	background-color: white;
+}
+
+/* menu suspenso da navbar */
+.navbar-collapse.show {
+    background-color: white;
+    color: black;
+    transform: translateY(13px);
+}
+
+.navbar-collapse {
+    width: 100%;
+}
