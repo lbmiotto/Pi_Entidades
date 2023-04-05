@@ -34,6 +34,7 @@ a#item_nav {
 /* itens da navbar quando o menu suspenso aparece */
 .navbar-collapse.show a#item_nav {
     color: black;
+	background-color: white;
 }
 
 /* !!!!! FOOTER !!!!! */
@@ -105,5 +106,73 @@ footer {
 	margin-top: 20px;
 	padding-top: 20px;
 	text-align: center;
+  }
+
+/* !!!!! CARDS !!!!! */
+.card-container {
+	display: flex;
+	justify-content: center;
+  }
+  
+  .card {
+	display: flex;
+	flex-direction: row;
+	width: 480px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin: 20px;
+  }
+  
+  .card-image {
+	width: 70%;
+	padding: 20px;
+  }
+  
+  .card-image img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+  }
+  
+  .card-text {
+	width: 100%;
+	background-color: #82c341;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	color: #fff;
+  }
+  
+  .card-text h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+  }
+  
+  .card-text p {
+	margin-top: 0;
+  }
+
+  #botao-vejamais{
+	color: black;
+  }
+
+  @media (max-width: 768px) {
+	.card {
+	  flex-direction: column;
+	  width: 100%;
+	}
+	
+	.card-image {
+	  width: 100%;
+	}
+	
+	.card-text {
+	  width: 100%;
+	  align-items: center;
+	  text-align: center;
+	}
   }
   
