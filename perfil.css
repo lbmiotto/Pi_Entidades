@@ -1,0 +1,34 @@
+/* !!!!! BANNER !!!!! */
+#bannerPerfil {
+    height: 300px;
+    margin-top: 0px;
+  }
+  
+.d-block{
+    width: 100%;
+    height: 100%;
+  }
+  
+/* !!!!! PERFIL !!!!! */
+.rounded-circle{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -80px;
+    right: 450px;
+  }
+  
+.perfil {
+    position: relative;
+  }
+
+/* !!!!! 3 CARDS !!!!! */
+.card-deck {
+    display: flex;
+    gap: 25px;
+  }
+  
+.card {
+    flex: 1;
+  }
+  
