@@ -22,6 +22,15 @@
     position: relative;
   }
 
+/* !!!!! SOBRE ENTIDADE E ATIVIDADES !!!!! */
+.card-header{
+  text-align: center;
+}
+
+#imgem_card_atividades_entidade{
+  align-items: center;
+}
+
 /* !!!!! 3 CARDS !!!!! */
 .card-deck {
     display: flex;
