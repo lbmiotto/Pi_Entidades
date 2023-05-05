@@ -1,0 +1,14 @@
+  /* carrossel */
+  .carousel {
+	margin: 20px;
+  }
+  
+  .carousel-item {
+	height: 400px;
+  }
+  
+  .carousel-item img {
+	object-fit: cover;
+	height: 400px;
+  }
+  
