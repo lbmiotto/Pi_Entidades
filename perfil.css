@@ -11,15 +11,15 @@
   
 /* !!!!! PERFIL !!!!! */
 .rounded-circle{
-    width: 150px;
     height: 150px;
     position: relative;
-    top: -80px;
-    right: 450px;
+    right: 29%;
+    max-width: 100%;
+    top: -50%;
   }
   
 .perfil {
-    position: relative;
+    max-width: relative;
   }
 
 /* !!!!! SOBRE ENTIDADE E ATIVIDADES !!!!! */
