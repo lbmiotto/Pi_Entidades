@@ -1,51 +1,51 @@
 /* !!!!! BANNER !!!!! */
 #bannerPerfil {
-    height: 300px;
-    margin-top: 0px;
-  }
-  
+  height: 300px;
+  margin-top: 0px;
+}
+
 .d-block{
-    width: 100%;
-    height: 100%;
-  }
-  
+  width: 100%;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* !!!!! PERFIL !!!!! */
 .rounded-circle{
-    height: 150px;
-    position: relative;
-    right: 0%;
-    max-width: 100%;
-    top: -50%;
-  }
-  
+  height: 150px;
+  position: relative;
+  right: 0%;
+  max-width: 100%;
+  top: -50%;
+}
 .perfil {
-    max-width: relative;
-  }
+  max-width: relative;
+}
 
 /* !!!!! SOBRE ENTIDADE E ATIVIDADES !!!!! */
 .card-header{
-  text-align: center;
+text-align: center;
 }
 
 #imgem_card_atividades_entidade{
-  align-items: center;
+align-items: center;
 }
 
 /* !!!!! 3 CARDS !!!!! */
 .card-deck {
-    display: flex;
-    gap: 25px;
-  }
-  
+  display: flex;
+  gap: 25px;
+}
+
 .card {
-    flex: 1;
-  }
+  flex: 1;
+}
 
 /* !!!!! PROCESSO SELETIVO !!!!! */
 
 #p_seletivo_titulo{
   text-align: center;
   padding: 10px;
-  
 }
-  
