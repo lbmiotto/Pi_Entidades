@@ -8,7 +8,8 @@
 /* configuração da nabar */
 .navbar {
     position: relative;
-  }
+	z-index: 9999;
+}
 
 /* cor da navbar */
 nav#navbar_topo {
@@ -33,9 +34,14 @@ a#item_nav {
 
 /* itens da navbar quando o menu suspenso aparece */
 .navbar-collapse.show a#item_nav {
-    color: black;
-	background-color: white;
+    color: white;
+	background-color: #002552;
 }
+
+.navbar-collapse.show {
+    background-color: #002552;
+}
+
 
 /* !!!!! FOOTER !!!!! */
 footer {
